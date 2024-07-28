@@ -1,0 +1,271 @@
+.news__right-txt a {
+  text-decoration: none;
+}
+
+.news__right-txt a:hover {
+  text-decoration: underline;
+}
+
+.rent__list-txt a {
+  text-decoration: none;
+}
+.rent__list-txt a:hover {
+  text-decoration: underline;
+}
+
+.rent__list-picture img {
+  aspect-ratio: 384 / 285;
+}
+
+.rent__list-picture a:hover {
+  transition: opacity 0.3s ease;
+  opacity: 0.7;
+}
+
+.rent__tag a {
+  text-decoration: none;
+}
+.rent__tag a:hover {
+  text-decoration: underline;
+}
+
+.feature__right-picture a:hover {
+  transition: opacity 0.3s ease;
+  opacity: 0.7;
+}
+.feature__right-picture img {
+  aspect-ratio: 550 / 350;
+}
+.usage__picture a:hover {
+  transition: opacity 0.3s ease;
+  opacity: 0.5;
+}
+
+.information__list-txt {
+  color: #000;
+}
+
+.information__list a:hover {
+  transition: opacity 0.3s ease;
+  opacity: 0.5;
+}
+
+.content__title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.wp_content {
+  padding: 15px 10px;
+  margin: 20px 0;
+}
+.wp_content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.wp_content p {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.wp_content a {
+  text-decoration: none;
+  color: #000;
+}
+.wp_content img {
+  display: block;
+  aspect-ratio: 1 / 1;
+  max-width: 400px;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.rent__title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.wp_rent {
+  margin: 30px 0;
+}
+.wp_rent h6 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.wp_rent a {
+  text-decoration: none;
+  color: #000;
+}
+.wp_rent img {
+ 
+}
+.wp_rent ul {
+  list-style: disc;
+}
+.rent__tag a {
+  color: #004898;
+}
+
+.rent__btn {
+  margin: 10px 0 30px;
+}
+.rent__btn a {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  background-color: #dce6f1;
+  color: #004898;
+  padding: 10px 10px;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.rent__btn a:hover {
+  background-color: #a6bad0;
+  text-decoration: underline;
+}
+
+.feature__title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 10px 0 30px;
+}
+.feature__content img {
+  border-radius: 10%;
+  
+}
+.feature__car{
+  margin-bottom: 50px;
+}
+.feature__content {
+  padding: 30px 0 30px;
+}
+
+.feature__btn a {
+  display: block;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  background-color: #dce6f1;
+  color: #004898;
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+.feature__btn a:hover {
+  background-color: #a6bad0;
+  text-decoration: underline;
+}
+
+.feature__right.-flex{
+  width: calc( 33.33% - 33.33px);
+}
+
+.feature__list.-flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+
+
+.feature__list-item{
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  max-width: 100%;
+  width: calc( 100%/4 - 20px);
+
+
+}
+.usage__ttl{
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 20px 0 30px ;
+}
+.usage__description {
+  margin:  20px 0 30px;
+}
+
+
+.usage__picture img{
+  max-width: 420px;
+  aspect-ratio: 420 / 236;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+/* usage list */
+.usage__information.-flex{
+  flex-wrap: wrap;
+
+}
+
+.usage__picture{
+  width: calc(33.33% - 33.33px);
+}
+
+
+
+.usage__btn a {
+  display: block;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  background-color: #dce6f1;
+  color: #004898;
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  margin-bottom: 40px;
+ 
+}
+
+.usage__btn a:hover {
+  background-color: #a7c6eb;
+  text-decoration: underline;
+}
+
+.information__ttl{
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 20px 0 20px;
+}
+.information__description img{
+border-radius: 50%;
+width: 50%;
+height: 80%;
+margin: 20px 0 20px;
+}
+
+.information__description{
+  margin-bottom: 30px;
+}
+
+.access__location{
+  text-decoration: underline;
+  
+}
